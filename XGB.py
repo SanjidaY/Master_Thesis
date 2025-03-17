@@ -14,7 +14,7 @@ path = "C:/Users/yasmin_s1/sanjida_projects/projects/mater_thesis/ML/Datasets/Da
 
 def main():
     # Step 1: Load Processed Dataset
-    df = pd.read_csv(path + "processed_dataset.csv")
+    df = pd.read_csv(path + "processed_dataset_for_XGB.csv")
     print(f"Loaded rows: {len(df)}, columns: {len(df.columns)}")
 
     # Step 2: Filter Classes with <2 Instances (Initial Clean)
